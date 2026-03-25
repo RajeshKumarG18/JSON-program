@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Indica Software",
+        "numberOfEmployees": 2,
+        "ceo": "Rajesh Kumar G",
+        "rating": 4.5
+    },
+    {
+        "name": "Small startup",
+        "numberOfEmployees": 5,
+        "ceo": null,
+        "rating": 3.8
+    }
+]
