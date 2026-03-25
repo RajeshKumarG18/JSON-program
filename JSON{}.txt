@@ -1,0 +1,41 @@
+<< Topic: JSON{} Course >>
+
+Agenda:
+1. JSON (JavaScript Object Notation ): 
+                                      > Json is a data representation format.
+                                      > It is very similar to .xml files or yml.
+                                      > It is commonly used for APIs and Configs.
+                                      > It is used as lightweight and easy to Read/Write.
+                                      > It integrates easily with most of the languages.
+
+2. JSON Types:
+              > It supports strings | "Hello World!"
+              > It supports numbers | 10, 1.5, -30 and 1.2e10
+              > It supports Booleans | True or False
+              > It supports null | null(empty)
+              > It supports arrays | [1, 2, 3] , ["Hello", "World"]
+              > It supports objects | {"keys":"value"} {"age":39}
+
+3. How to use json inside a file:
+
+Step 1: Create a json file named as 'user.json'.
+Step 2: To create an object, we need to use the opening and closing curly bracket/flower bracket.
+Step 3: Put all the key value pairs, that make an object.
+
+The code:
+
+Filename: user.json
+
+{
+    "name": "Kyle", 
+    "favorite_color": "blue",
+    "favoriteNumber": 12,
+    "isProgrammer": true,
+    "hobbies": ["Weight Lifting", "Reading", "Coding"],
+    "friends": [{
+        "name": "Joey",
+        "favoriteNumber": 100,
+        "isProgrammer": false,
+        "friends": [...]
+    }]
+}
